@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Super Bug Zapper </title>
+		<h1 align="center">Super Bug Zapper</h1>
+		<p align ="center">Click "Start Game" to begin. Move your mouse over the bacteria and right click to zap them before they grow too big!</p>
+	</head>
+	
+	<body onload="main()">
+	<canvas id="webgl" width="400" height="400">
+	please use a browser that supports "canvas"
+	</canvas>
+	<br>
+	<button id="start">Start Game</button>
+	<br>
+	<div id="game_points" align ="center">Game gains: 0</div>
+	<div id="player_points" align ="center">Player gains: 0</div>
+	<div id="win_lose" align ="center" font-size-="15px"></div>
+	<script src="SuperBugZapper.js"></script>
+	<script src="shaders.js"></script>
+	<script src="cuon-matrix.js"></script>
+	<script src="cuon-utils.js"></script>
+	<script src="MV.js"></script>
+	<script src="webgl-debug.js"></script>
+	<script src="webgl-utils.js"></script>
+	
+	</body>
+</html>
